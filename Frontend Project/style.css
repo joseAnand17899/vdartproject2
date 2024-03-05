@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Radio+Canada:ital,wght@0,300..700;1,300..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Radio Canada", sans-serif;
+}
+
+#navbar{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    padding: .10rem 5rem;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, .5);
+    background: black;
+}
+
+.navbar .navbar-brand{
+ font-size: 25px;
+ font-weight: 800;
+ color: #29f900 !important;
+}
+
+#navbarSupportedContent a{
+    color: #fff;
+    border-bottom: 2px solid transparent;
+}
+
+#navbarSupportedContent a:hover{
+    border-bottom: 2px solid #29f900;
+}
+
+#navbarSupportedContent button{
+    width: 5rem;
+    border-radius: 15px;
+}
+
+section{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Home Page */
+
+#home{
+    background: url(Landing\ img1.jpg);
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+}
+
+#home h1{
+    font-size: 100px;
+    color: solid black;
+    letter-spacing: 3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 0px 1px 0px #2c1a1a,
+                 0px 2px 0px #2c1a1a,
+                 0px 3px 0px #2c1a1a,
+                 0px 4px 0px #2c1a1a,
+                 0px 5px 0px #2c1a1a,
+                 0px 6px 0px #2c1a1a;
+}
+
+#home p{
+    font-size: 20px;
+    color: solid black;
+}
+
+#home .input-group{
+  width: 40%;
+  height: 45px;
+  color: solid black;
+  font-weight: 800;
+}
+
+.signin{
+    background: #29f900 !important; 
+    color: solid black !important;
+    font-weight: bolder;
+    box-shadow: 2px 4px 5px rgba(0, 0, 0, .5);
+}
+
+/* About Us */
+
+#about{
+    background: white;
+}
+
+#about h2{
+    font-size: 50px;
+    font-weight: 800;
+    border-bottom: 2px solid black;
+}
+
+#about p{
+    font-size: 20px;
+    padding-top: 30px;
+   
+}
+
+#about img{
+    background-size: cover;
+    background-position: center;
+    padding: 0px;
+}
+
+/* products */
+
+#product{
+    background: whitesmoke;
+    padding-top: 0;
+    margin-top: 0;
+}
+
+#product h1{
+    font-size: 50px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    border-bottom: 2px solid black
+}
+
+.card{
+   background: whitesmoke !important;
+   border: none !important;
+   box-shadow: 15px 20px 20px rgba(0, 0, 0, .5),
+               inset 4px 4px 10px white;
+   border-radius: 20px !important;
+   overflow: hidden;
+   justify-content: center;
+   align-items: center;
+   margin: 20px 60px;
+   transition: .2s;
+}
+
+.card:hover{
+    box-shadow: inset 5px 5px 10px rgba(0, 0, 0, .5),
+               inset 4px 4px 10px white;
+    transition: .2s;
+}
+
+/* Contact */
+
+#contact img{
+height: 100%;
+}
+
+.box{
+    width: 100% !important;
+    background: whitesmoke;
+    margin-top: 10px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+#contact input{
+    margin: 10px 0px;
+}
+
+#contact textarea{
+    margin: 10px 0px;
+}
+
+#contact h1{
+    margin: 10px 0px;
+}
+
+footer{
+    width: 100%;
+    height: 30px;
+    font-size: 20px;
+    background: rgba(0, 0, 0, .5);
+    color: white;
+    font-weight: bolder;
+    margin-top: -40px;
+    text-align: center;
+    padding: 3px;
+}
+
+
+
